@@ -1,6 +1,6 @@
 require 'bundler'
 Bundler.require
 
-require_relative '../lib/song'
+require_relative '../lib/Aspirant'
 
-DB = { conn: SQLite3::Database.new("db/music.db") }
+DB = { conn: SQLite3::Database.new("db/elections.db") }
